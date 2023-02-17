@@ -9,10 +9,18 @@ function App() {
         </div>
         
         <div>
-          <button>/</button><button>*</button>
-          <button>+</button><button>-</button>
+          <button>/</button>
+          <button>*</button>
+          <button>+</button>
+          <button>-</button>
 
-        </div>
+          <butt>DELETE</butt>
+          </div>
+          <div className="digits">
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+          </div>
     </div>
   );
 }
