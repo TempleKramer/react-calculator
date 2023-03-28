@@ -1,4 +1,4 @@
-: :root{
+:root{
     --primary: #d81e5b;
     --secondary: #8c38ff;
     --dark: black;
@@ -60,3 +60,31 @@ button {
     transition: 0.4s;
 
 }
+
+button:hover {
+    opacity: 0.9;
+
+}
+
+.operators {
+    display: flex;
+    
+}
+
+.operators button {
+    flex: 1 1 0%;
+    background-color: var(--primary);
+    font-weight: 700;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digits button {
+    flex: 1 1 33.333%;
+    max-width: 33.333%;
+    background-color: var(--dark);
+}
+
